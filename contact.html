@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Joshua Kuopus</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/JK-favicon.png"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <img
+        id="page-header__logo"
+        src="img/JK-Logo-new-redo.png"
+        alt="Personal Logo of Joshua Kuopus, a text logo consisting of my name"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="contact-main-wrapper">
+      <main class="contact-main">
+        <h1>Contact Me</h1>
+        <address>
+          Joshua Kuopus<br />
+          Schnickelstr. 78<br />
+          12345 Stuttgart<br />
+          Germany<br />
+          Telephone <a href="tel:+493015762939">tel:+49 30 1576 2939</a><br />
+          Skype <a href="skype:hello.careerfoundry">hello.careerfoundry</a
+          ><br />
+          Email <a href="mailto:kuopus79@gmail.com">kuopus79(at)gmail(dot)com</a
+          ><br />
+          <a href="mailto:kuopus79@gmail.com">Contact Me</a>
+        </address>
+      </main>
+      <div class="form-container">
+        <form action="index.html" method="post" id="contact-form">
+          <div class="row">
+            <div class="col-25">
+              <label class="standard-label" for="contact-email"
+                >E-mail:*
+              </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                id="contact-email"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label class="standard-label" for="contact-telephone"
+                >Telephone:
+              </label>
+            </div>
+            <div class="col-75">
+              <input
+                type="tel"
+                id="contact-telephone"
+                placeholder="Telephone"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label class="standard-label" for="contact-message"
+                >Message (Maximum 240 characters):*<br />
+              </label>
+              <label><span id="required">*Required Fields</span></label>
+            </div>
+            <div class="col-75">
+              <textarea
+                maxlength="240"
+                id="contact-message"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Send message" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <a href="http://github.com" target="_blank">
+        <img src="img/github_icon.svg" alt="Click to visit github.com" />
+      </a>
+      <a href="http://twitter.com" target="_blank">
+        <img src="img/twitter_icon.svg" alt="Click to visit twitter.com" />
+      </a>
+      <a href="https://linkedin.com" target="_blank">
+        <img src="img/linkedin_icon.svg" alt="Click to visit linkedin.com" />
+      </a>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
