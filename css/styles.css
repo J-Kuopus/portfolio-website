@@ -281,11 +281,26 @@ input:focus {
 }
 
 /* Additional styling for "work" page */
-.project1-img-wrapper {
+.project1-img-wrapper,
+.project2-img-wrapper,
+.project3-img-wrapper {
   padding-left: 12px;
 }
-.project1-img1 {
+
+.project1,
+.project2,
+.project3 {
   width: 450px;
+  height: auto;
+}
+
+.project4-img-wrapper {
+  padding-left: 120px;
+}
+
+.project4a,
+.project4b {
+  width: 220px;
   height: auto;
 }
 
