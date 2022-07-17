@@ -23,7 +23,7 @@ Button border bottom: rgba(0, 0, 0, 0.3)
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
@@ -190,7 +190,7 @@ a:active {
   padding: 20px;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -232,7 +232,7 @@ input:focus {
 }
 
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -268,6 +268,7 @@ input:focus {
     min-height: auto;
     margin: 0;
     border-radius: 20px;
+    padding: 10px;
   }
 
   .project-list__item:last-child {
@@ -277,6 +278,15 @@ input:focus {
   .project-list-wrapper {
     margin: 110px auto;
   }
+}
+
+/* Additional styling for "work" page */
+.project1-img-wrapper {
+  padding-left: 12px;
+}
+.project1-img1 {
+  width: 450px;
+  height: auto;
 }
 
 /* Media queries for "work" page*/
@@ -329,7 +339,7 @@ input:focus {
 @media screen and (max-width: 600px) {
   .col-25,
   .col-75,
-  input[type="submit"] {
+  input[type='submit'] {
     width: 75%;
     margin-top: 0;
   }
