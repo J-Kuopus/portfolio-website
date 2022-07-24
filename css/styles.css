@@ -304,6 +304,15 @@ input:focus {
   height: auto;
 }
 
+.project5 {
+  width: 275px;
+  height: auto;
+}
+
+.project5-img-wrapper {
+  padding-left: 25px;
+}
+
 /* Media queries for "work" page*/
 @media all and (max-width: 500px) {
   .project-list {
