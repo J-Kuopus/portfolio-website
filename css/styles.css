@@ -289,7 +289,8 @@ input:focus {
 
 .project1,
 .project2,
-.project3 {
+.project3,
+.project6 {
   width: 450px;
   height: auto;
 }
