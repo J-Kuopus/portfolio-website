@@ -1,5 +1,6 @@
 # portfolio-website
 
+## Description
 This is a responsive portfolio website built with HTML and CSS that features information about myself and my web development projects.
 
 ## Key Features
