@@ -17,6 +17,9 @@ This is a responsive portfolio website built with HTML and CSS that features inf
 - Contact page displaying contact information
 - Work page that features descriptions and links to my projects
 
+## Tech Stack
 
+- HTML: for general layout
+- CSS: for styling and positioning of elements
 
 
