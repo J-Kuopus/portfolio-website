@@ -12,6 +12,8 @@ Mobile version:
 <br/>
 ![Portfolio Site Mobile Version](img/portfolio-site2.jpg?raw=true "Title")
 
+## Link to live web page
+https://j-kuopus.github.io/portfolio-website/
 
 ## Key Features
 
