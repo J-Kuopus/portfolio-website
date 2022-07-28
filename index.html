@@ -7,7 +7,7 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="img/JK-favicon.png"
+      href="img/favicon-new.png"
       sizes="16x16"
     />
     <link
@@ -20,13 +20,21 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <style>
+      body {
+        background-image: url('img/Beach.JPG');
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+      }
+    </style>
   </head>
   <body>
     <header class="page-header">
       <a href="index.html">
         <img
           id="page-header__logo"
-          src="img/JK-Logo-new-redo.png"
+          src="img/JKBaroque.png"
           alt="Personal Logo of Joshua Kuopus, a text logo consisting of my name"
         />
       </a>
@@ -60,36 +68,52 @@
     </header>
     <main class="profile">
       <div class="profile__item">
-        <img
-          class="profile__portrait"
-          src="img/frog2.png"
-          alt="A photograph of me"
-        />
-      </div>
-      <div class="profile__item">
-        <h1>Greetings!</h1>
+        <h1>Welcome!</h1>
         <p>
-          My name is Joshua Kuopus. I am a web developer from the U.S.A.
+          My name is Joshua Kuopus. I'm a web developer originally from the
           <br />
-          Coding can be tough but it's also fun and rewarding.
+          U.S.A. and I love coding! Although I am new to the field, I have
+          <br />
+          learned a lot in a short time and I look forward to taking on new
+          <br />
+          projects to hone my skills and develop new ones.
         </p>
-        <a href="https://github.com/J-Kuopus" target="_blank"
-          >Check out some of my code</a
+        <p>
+          <p><strong>My skills: </strong>HTML5, JavaScript ES6, CSS3</p>
+          <img
+            class="multi-logo"
+            src="img/multi-logo.png"
+            alt="html, javascript, css logo"
+          />
+        </p>
+        <a
+          class="code-button"
+          href="https://github.com/J-Kuopus"
+          target="_blank"
+          ><span id="button-text-color">Check out some of my work</span></a
         ><br />
       </div>
     </main>
     <footer class="page-footer">
       <p>Find me on</p>
       <a href="https://github.com/J-Kuopus" target="_blank">
-        <img src="img/github_icon.svg" alt="Click to visit github.com" />
+        <img
+          class="github-logo"
+          src="img/github-logo-white-.png"
+          alt="Click to visit github.com"
+        />
       </a>
       <a href="https://twitter.com/kuopus79" target="_blank">
         <img src="img/twitter_icon.svg" alt="Click to visit twitter.com" />
       </a>
       <a href="https://www.linkedin.com/in/joshua-kuopus" target="_blank">
-        <img src="img/linkedin_icon.svg" alt="Click to visit linkedin.com" />
+        <img
+          class="linked-in"
+          src="img/Symbol-LinkedIn.jpg"
+          alt="Click to visit linkedin.com"
+        />
       </a>
     </footer>
-    <!-- <script src="js/tota11y.min.js"></script> -->
+    <script src="js/tota11y.min.js"></script>
   </body>
 </html>
