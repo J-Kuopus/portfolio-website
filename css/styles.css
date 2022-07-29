@@ -25,6 +25,10 @@ Snuff: #E6DFF1
   box-sizing: border-box;
 }
 
+/* html {
+  background-color: #5a5662;
+} */
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -263,6 +267,7 @@ a:active {
   padding-top: 45px;
   padding-left: 20px;
   color: #e6dff1;
+  text-align: center;
 }
 
 #contact-main-wrapper {
@@ -270,6 +275,12 @@ a:active {
   flex-direction: column;
   align-items: center;
   margin: 80px auto;
+}
+
+.contact-info {
+  background-color: rgba(59, 84, 124, 0.6);
+  border-radius: 10px;
+  padding: 15px;
 }
 
 /* Project grid on "work" page*/
@@ -335,12 +346,11 @@ a:active {
 }
 
 .work-page-footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   clear: both;
   text-align: center;
-  background-color: #5a5662;
 }
 
 @media all and (max-width: 500px) {
